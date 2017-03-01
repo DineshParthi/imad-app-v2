@@ -1,7 +1,8 @@
-console.log('Loaded!');
+
 var button=document.getElementById('count');
-alert("h1");
+
 button.onclick = function(){
+    alert("h1");
     var req= new XMLHttpRequest();
     req.onreadystagechange=function(){
         if(req.readyState===XMLHttpRequest.DONE){
