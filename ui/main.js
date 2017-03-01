@@ -1,5 +1,6 @@
 console.log('Loaded!');
 var button=document.getElementById('count');
+alert("h1");
 button.onclick = function(){
     var req= new XMLHttpRequest();
     req.onreadystagechange=function(){
