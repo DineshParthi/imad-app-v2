@@ -3,8 +3,8 @@ var button=document.getElementById('count');
 button.onclick = function(){
     var req= new XMLHttpRequest();
     req.onreadystagechange=function(){
-        if(req.readyState==XMLHttpRequest.DONE){
-            if(req.status==200){
+        if(req.readyState===XMLHttpRequest.DONE){
+            if(req.status===200){
                 var counter=req.responseText;
                 var span=document.getElementById('cnt');//chg
                 span.innerHTML=counter.toString();//chg
