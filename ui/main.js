@@ -3,7 +3,6 @@
 var button1=document.getElementById('counter');
 //button1.onclick = function(){
     function clickMe(){
-    
     var req= new XMLHttpRequest();
     req.onreadystagechange=function(){
         if(req.readyState===XMLHttpRequest.DONE){
