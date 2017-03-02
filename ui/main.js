@@ -1,4 +1,5 @@
 
+ console.log(`IMAD course app listening on port ${port}!`);
 var button=document.getElementById('count');
 alert("h1");
 button.onclick = function(){
