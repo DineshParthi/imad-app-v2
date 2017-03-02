@@ -4,7 +4,9 @@ var button1=document.getElementById('counter');
 //button1.onclick = function(){
     function clickMe(){
     var request= new XMLHttpRequest();
+    console.log(`Hi5`);
     request.onreadystagechange = function(){
+        console.log(`Hi3`);
         if(request.readyState === XMLHttpRequest.DONE){
             alert("h2");
             console.log(`Hi2`);
