@@ -5,7 +5,7 @@ var button1=document.getElementById('counter');
     function clickMe(){
     var request= new XMLHttpRequest();
     console.log(`Hi5`);
-    request.onreadystagechange = function(){
+    request.onreadystatechange = function(){
         console.log(`Hi3`);
         if(request.readyState === XMLHttpRequest.DONE){
             alert("h2");
