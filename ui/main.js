@@ -4,10 +4,10 @@ var button1=document.getElementById('counter');
 //button1.onclick = function(){
     function clickMe(){
     var request= new XMLHttpRequest();
-    req.onreadystagechange=function(){
+    request.onreadystagechange = function(){
         if(request.readyState === XMLHttpRequest.DONE){
             alert("h2");
-            if(request.status===200){
+            if(request.status === 200){
                 alert("h1");
                 var counter=request.responseText;
                 var span=document.getElementById('cnt');//chg
