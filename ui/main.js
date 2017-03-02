@@ -3,13 +3,13 @@
 var button1=document.getElementById('counter');
 //button1.onclick = function(){
     function clickMe(){
-    var req= new XMLHttpRequest();
+    var request= new XMLHttpRequest();
     req.onreadystagechange=function(){
-        if(req.readyState===XMLHttpRequest.DONE){
+        if(request.readyState === XMLHttpRequest.DONE){
             alert("h2");
-            if(req.status===200){
+            if(request.status===200){
                 alert("h1");
-                var counter=req.responseText;
+                var counter=request.responseText;
                 var span=document.getElementById('cnt');//chg
                 span.innerHTML=counter.toString();//chg
             }
@@ -17,6 +17,6 @@ var button1=document.getElementById('counter');
         
     };
     
-    req.open('GET','http://dineshparthi.imad.hasura-app.io/counter',true);
-    req.send(null);
+    request.open('GET','http://dineshparthi.imad.hasura-app.io/counter',true);
+    request.send(null);
 }
