@@ -7,6 +7,7 @@ var button1=document.getElementById('counter');
     var req= new XMLHttpRequest();
     req.onreadystagechange=function(){
         if(req.readyState===XMLHttpRequest.DONE){
+            alert("h2");
             if(req.status===200){
                 alert("h1");
                 var counter=req.responseText;
