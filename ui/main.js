@@ -1,8 +1,7 @@
 
  console.log(`Hi`);
-var button=document.getElementById('count');
-alert("h1");
-button.onclick = function(){
+var button1=document.getElementById('count');
+button1.onclick = function(){
     alert("h1");
     var req= new XMLHttpRequest();
     req.onreadystagechange=function(){
