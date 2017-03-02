@@ -16,6 +16,7 @@ var button1=document.getElementById('counter');
                 span.innerHTML=counter.toString();//chg
             }
         }
+        alert(request.readyState);
         
     };
     
