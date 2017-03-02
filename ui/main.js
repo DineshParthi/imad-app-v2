@@ -1,7 +1,8 @@
 
  console.log(`Hi`);
 var button1=document.getElementById('counter');
-button1.onclick = function(){
+//button1.onclick = function(){
+    function clickMe(){
     alert("h1");
     var req= new XMLHttpRequest();
     req.onreadystagechange=function(){
@@ -17,4 +18,4 @@ button1.onclick = function(){
     
     req.open('GET','http://dineshparthi.imad.hasura-app.io/counter',true);
     req.send(null);
-};
+}
