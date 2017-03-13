@@ -30,7 +30,7 @@ var nameInput= document.getElementById('nameInput');
 var submit_btn= document.getElementById('submit_btn');
 //submit_btn.onclick= function(){
  
- function list() {  
+ function listme() {  
     var names=['name1','name2','name3','name4'];
     var list="";
     for(i in names){
