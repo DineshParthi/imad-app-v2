@@ -28,8 +28,9 @@ var button1=document.getElementById('counter');
 var nameInput= document.getElementById('nameInput');
 var name=nameInput.value;
 var submit_btn= document.getElementById('submit_btn');
-submit_btn.onclick= function(){
-    
+//submit_btn.onclick= function(){
+ 
+ function list() {  
     var names=['name1','name2','name3','name4'];
     var list="";
     for(i in names){
@@ -37,4 +38,4 @@ submit_btn.onclick= function(){
     }
     var ol=document.getElementById('namelist');
     ol.innerHTML=list;
-};
+}
