@@ -35,4 +35,6 @@ submit_btn.onclick= function(){
     for(i in names){
         list="<li>"+names[i]+"</li>";
     }
+    var ol=document.getElementById('namelist');
+    ol.innerHTML=list;
 };
