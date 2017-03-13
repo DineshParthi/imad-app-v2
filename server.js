@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var names[];
+var names=[];
 app.get('/submitname', function(req,res){
     var name=req.query.name;
     names.push(name);
