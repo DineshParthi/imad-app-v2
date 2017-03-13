@@ -23,3 +23,16 @@ var button1=document.getElementById('counter');
     request.open('GET','http://dineshparthi.imad.hasura-app.io/counter',true);
     request.send(null);
 }
+
+//submit name
+var nameInput= document.getElementById('nameInput');
+var name=nameInput.value;
+var submit_btn= document.getElementById('submit_btn');
+submit_btn.onclick= function(){
+    
+    var names=['name1','name2','name3','name4'];
+    var list="";
+    for(i in names){
+        list="<li>"+names[i]+"</li>";
+    }
+};
