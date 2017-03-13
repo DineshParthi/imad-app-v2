@@ -33,7 +33,7 @@ var submit_btn= document.getElementById('submit_btn');
  function listme() {  
     var names=['name1','name2','name3','name4'];
     var list="";
-    for(i in names){
+    for(i=0;i< names.length;i++){
         list='<li>'+names[i]+'</li>';
     }
     alert(list);
