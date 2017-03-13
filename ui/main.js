@@ -51,7 +51,7 @@ var submit_btn= document.getElementById('submit_btn');
                 ol.innerHTML=list;
             }
         }
-        console.log(request.readyState);
+        //console.log(request.readyState);
         
     };
     var nameInput= document.getElementById('nameInput');
