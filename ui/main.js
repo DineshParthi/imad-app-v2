@@ -34,7 +34,7 @@ var submit_btn= document.getElementById('submit_btn');
     var names=['name1','name2','name3','name4'];
     var list="";
     for(i in names){
-        list="<li>"+names[i]+"</li>";
+        list='<li>'+names[i]+'</li>';
     }
     var ol=document.getElementById('namelist');
     ol.innerHTML=list;
