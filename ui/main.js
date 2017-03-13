@@ -26,7 +26,7 @@ var button1=document.getElementById('counter');
 
 //submit name
 var nameInput= document.getElementById('nameInput');
-var name=nameInput.value;
+//var name=nameInput.value;
 var submit_btn= document.getElementById('submit_btn');
 //submit_btn.onclick= function(){
  
