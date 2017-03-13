@@ -28,9 +28,9 @@ var button1=document.getElementById('counter');
 var nameInput= document.getElementById('nameInput');
 //var name=nameInput.value;
 var submit_btn= document.getElementById('submit_btn');
-submit_btn.onclick= function(){
+//submit_btn.onclick= function(){
  
-// function listme() {  
+ function listme() {  
     var names=['name1','name2','name3','name4'];
     var list="";
     //for(i=0;i< names.length;i++){
